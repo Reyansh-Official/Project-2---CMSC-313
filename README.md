@@ -7,6 +7,7 @@ double.s is an x86-64 Linux assembly program that reads an integer from standard
 **Build Instructions**
 
 as -o double.o double.s
+
 ld -o double double.o
 
 **Run Instructions**
